@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>About Us</title>
+		
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+			@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@600&display=swap');
+			@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+			
+			body {
+			background-color: #F6F4F5;
+			font-size: 15px;
+			}
+			
+			header {
+			background: linear-gradient(to right, #0b024d, #231b5f, #3c3571);
+			color: white;
+			width: 100%;
+			height: 117px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 1;
+			border-radius: 0 0 10px 10px;
+			}
+			
+			#saaqc_logo {
+			padding-left: 40px;
+			padding-top: 12px;
+			}
+			
+			nav {
+			position: absolute;
+			left: 185px;
+			top: 45px;
+			font-family: Inter;
+			font-size: 150%;
+			}
+			
+			ul {
+			float: left;
+			list-style-type: none; 
+			margin: 0; 
+			padding: 0;
+			white-space:nowrap
+			}
+			
+			li {
+			display: inline-block;
+			border-bottom: 2px solid transparent;
+			transition: 0.2s;
+			}
+			
+			li:hover {
+			border-color: white;
+			}
+			
+			a { 
+			text-decoration: none;
+			color: inherit; 
+			} 
+			
+			.dropbtn a{
+			position: relative;
+			}
+			
+			.dropbtn:hover .dropdown-content {
+			opacity: 1;
+			}
+			
+			.dropdown-content {
+			opacity: 0;
+			position: absolute;
+			left: 235px;
+			color: white;
+			background-color: #0B024D;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+			transition: 0.2s;
+			}
+
+			.dropdown-content a {
+			color: inherit;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			border: 5px solid transparent;
+			transition: 0.2s;
+			}
+			
+			.dropdown-content a:hover {
+			border-color: white;
+			}
+			
+			footer {
+			font-family: Inter;
+			text-align: right;
+			position: absolute;
+			bottom: 1;
+			width: 99%;
+			height: 20px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<img src="photos/logo.png" width="90" height="92" alt="saaqc logo" id="saaqc_logo" usemap="#workmap" />
+			<map name="workmap">
+				 <area shape="default" alt="logo" href="home.html">
+			</map>
+			
+			<nav>
+				<ul>
+					<li><a href="home.html">HOME</a></li> &nbsp &nbsp &nbsp 
+					<li><a href="register.html">REGISTER</a></li> &nbsp &nbsp &nbsp
+					<span class="dropbtn">
+						<li>FACILITIES</li>
+							<div class="dropdown-content">
+								<a href="school map.html">School Map</a>
+								<a href="other facilities.html">Other Facilities</a>
+							</div> &nbsp &nbsp &nbsp
+					</span>	
+					<li><a href="school life.html">SCHOOL LIFE</a></li> &nbsp &nbsp &nbsp 
+					<li><a href="gallery.html">GALLERY</a></li> &nbsp &nbsp &nbsp 
+					<li><a href="about us.html">ABOUT US</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+    <section>
+	<center>
+		<img src="photos/facilities/E_F2.png" width="700" height="400" alt="Elementary Floor 2" usemap="#EF2" />
+		<map name="EF2">
+			<area shape="rect" coords="7,271,62,387" alt="To Elementary Floor 1" href="school map.html"> 
+			<area shape="rect" coords="71,267,136,387" alt="To Elementary Floor 2" href="EF3.html"> 
+	</center>
+	</section>
+    <footer>
+	<p>Created by Valencia, Pira, Lazardo, Bugaoan, Manuel, Macaraeg, and Malinay
+	</p>
+	</footer>
+  </body>
+</html>
